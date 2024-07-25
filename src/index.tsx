@@ -21,7 +21,7 @@ if (typeof Symbol.asyncDispose !== "symbol") {
 }
 
 if (process.env.NODE_ENV === "production" && window.__TAURI__ == null && "serviceWorker" in navigator) {
-    navigator.serviceWorker.register("/service-worker.js");
+    navigator.serviceWorker.register("service-worker.js");
 }
 
 preloadWasm();
