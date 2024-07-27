@@ -42,14 +42,14 @@ export class About extends React.Component<Props> {
                         <div className="title-text">LiveSplit One</div>
                     </div>
                     <p className="build-version">
-                        <a href={`https://github.com/LiveSplit/LiveSplitOne/commit/${COMMIT_HASH}`} target="_blank">
+                        <a href={`https://github.com/rootmos/LiveSplitOne/commit/${COMMIT_HASH}`} target="_blank">
                             Version: {BUILD_DATE}
                         </a>
                     </p>
                     <p>LiveSplit One is a multiplatform version of LiveSplit, the sleek,
                         highly-customizable timer for speedrunners.</p>
                     <p>
-                        <a href="https://github.com/LiveSplit/LiveSplitOne" target="_blank">
+                        <a href="https://github.com/rootmos/LiveSplitOne" target="_blank">
                             View Source Code on GitHub
                         </a>
                     </p>
@@ -58,7 +58,7 @@ export class About extends React.Component<Props> {
                         {
                             CHANGELOG.map((change) => (
                                 <>
-                                    <a href={`https://github.com/LiveSplit/LiveSplitOne/commit/${change.id}`} target="_blank">
+                                    <a href={`https://github.com/rootmos/LiveSplitOne/commit/${change.id}`} target="_blank">
                                         {change.date}
                                     </a>
                                     <div>
