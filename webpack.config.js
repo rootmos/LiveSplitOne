@@ -229,5 +229,9 @@ export default async (env, argv) => {
         },
 
         mode: isProduction ? "production" : "development",
+
+        performance: {
+            maxAssetSize: 4*Math.pow(1024,2),
+        },
     };
 };
